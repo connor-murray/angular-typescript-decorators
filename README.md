@@ -1,27 +1,20 @@
-# AngularEnvironmentDecorator
+# Angular Typescript Decorators
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+This project contains Angular 5 Typescript Decorators
 
-## Development server
+## Environment Decorator
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A property decorator that takes as an input the name of the property from the environment file. The value of which will be bound to the property on which this decorator is applied.
 
-## Code scaffolding
+## Function Logger Decorator
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A function decorator that will log a functions input arguments and its returned value if any. Usefull for debugging applications ensuring functions are recieving the correct input and providing correct output.
 
-## Build
+## Lifecycle Logger Decorator
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+A class decorator that will log the lifecycle events of an Angular component i.e. ngOnInit(). Useful for debugging application ensuring components are initialsed and disposed of as expected.
 
-## Running unit tests
+## Examples
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The app.component.ts and app.service.ts files contain examples of each decorator. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
