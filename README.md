@@ -1,6 +1,6 @@
 # Angular Typescript Decorators
 
-This project contains Angular 5 Typescript Decorators
+This project contains Angular Typescript Decorators
 
 ## Environment Decorator
 
